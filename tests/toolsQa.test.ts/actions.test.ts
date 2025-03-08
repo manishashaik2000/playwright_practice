@@ -6,6 +6,7 @@ test('actions', async ({ page })=> {
     await page.fill('getByText[name="Text Box"]','playwrightuser');
 //added a line
 await page.locator('#id');
+//added a line
 });
   
 

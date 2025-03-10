@@ -1,7 +1,7 @@
-import { test, expect } from '@playwrig ht/test';
+import { test, expect } from '@playwright/test';
 
 
-test.only('actions',async({page})=>
+test('actions',async({page})=>
 { 
     await page.goto('https://demoqa.com/',{timeout:50000});
 
